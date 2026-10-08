@@ -1,0 +1,27 @@
+.square {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #111827;
+  font-size: 48px;
+  font-weight: bold;
+  transition: background-color 0.15s ease;
+}
+
+.square:hover {
+  background-color: #f3f4f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  .square {
+    background-color: #111827;
+    color: #ffffff;
+  }
+
+  .square:hover {
+    background-color: #1f2937;
+  }
+}
